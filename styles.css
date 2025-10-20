@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shadow{
+    box-shadow: rgb(143, 45, 45) 0px 4px 12px;
+}
+
+
+.container-logo{
+    height: 30px;
+    width: 30px;
+}
+
+.container-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.container-title h1{
+    font-size: 85px;
+    align-items: center;
+    text-align: center;
+}
+
+.personaje{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+#container-personajes{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.DarkMode{
+    background-color: black;
+    color: white;
+}
+
+
